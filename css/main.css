@@ -82,3 +82,7 @@ li a {
 .footer li .fa {
   font-size: 50px;
 }
+
+.footer li .fa:hover {
+  color: #1eaedb;
+}
