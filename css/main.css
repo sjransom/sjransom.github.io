@@ -51,13 +51,18 @@ img {
 
 img.sam {
   border-radius: 75px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 p {
   font-size: 16px;
   font-weight: 200;
   line-height: 1.8;
+}
+
+.lead {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 ul {
