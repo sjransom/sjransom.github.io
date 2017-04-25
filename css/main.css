@@ -36,6 +36,10 @@ a {
   text-decoration: none;
 }
 
+a.cv-link {
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 28px;
   text-transform: uppercase;
@@ -63,6 +67,10 @@ p {
 .lead {
   font-size: 18px;
   font-weight: bold;
+}
+
+.small {
+  font-size: 13px;
 }
 
 ul {
