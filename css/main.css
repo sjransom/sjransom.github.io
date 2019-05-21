@@ -1,101 +1,57 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
 
 * {
+  color: #333447;
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
-  font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
-  line-height: 1.5;
-}
-
-.section {
-  margin: 20px 0;
 }
 
 .header {
   display: flex;
-  align-items: baseline;
-  border-bottom: 1px solid #d3d3d3;
-  padding: 10px 0;
+  flex-direction: column;
+  min-height: 100vmin;
 }
 
-.header-left, .header-right {
-  flex-grow: 1
+.top-nav {
+  align-items: center;
+  display: flex;
+  background-color: #f2f2f2;
+  justify-content: space-between;
 }
 
-.header-left {
-  text-align: left;
+.top-nav__email {
+  background: #cb2027;
+  color: #fff;
+  padding: .5rem;
 }
 
-.header-right {
-  text-align: right;
-}
-
-a {
-  color: black;
+.top-nav__link {
   text-decoration: none;
 }
 
-a.cv-link {
-  text-decoration: underline;
+.top-nav__icon {
+  font-size: 2.5rem;
+  padding: 0 .5rem;
 }
 
-h1 {
-  font-size: 28px;
-  text-transform: uppercase;
-  margin: 0;
-  line-height: 0;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-img.sam {
-  border-radius: 75px;
-  border: 1px solid black;
-}
-
-p {
-  font-size: 16px;
-  font-weight: 200;
-  line-height: 1.8;
-}
-
-.lead {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.small {
-  font-size: 13px;
-}
-
-ul {
-  margin-bottom: 0;
-}
-
-li {
-  display: inline;
-}
-
-li a {
-  padding: 0 10px;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  border-top: 1px solid #d3d3d3;
-  padding: 10px 0;
-}
-
-.footer li .fa {
-  font-size: 50px;
-}
-
-.footer li .fa:hover {
+.top-nav__icon:hover {
   color: #1eaedb;
+}
+
+.article {
+  margin: auto;
+  max-width: 1080px;
+  padding: 2rem;
+}
+
+.heading {
+  font-size: calc(2.2rem + 2vw + 2vh);
+  line-height: 1;
+  margin: 0;
+}
+
+.subheading {
+  padding: .5rem 0;
 }
